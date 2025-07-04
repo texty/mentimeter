@@ -1,0 +1,44 @@
+{
+  "name": "sveltekit-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^5.0.8",
+    "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-static": "^2.0.3",
+    "@sveltejs/kit": "^1.27.4",
+    "@types/cookie": "^0.5.1",
+    "@types/d3": "^7.4.3",
+    "eslint": "^8.28.0",
+    "eslint-plugin-svelte": "^3.5.1",
+    "sass": "^1.63.6",
+    "svelte": "^5.25.12",
+    "svelte-check": "^3.6.0",
+    "svelte-preprocess": "^5.1.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/svelte-scroller": "^2.0.7",
+    "d3": "^7.8.5",
+    "d3-collection": "^1.0.7",
+    "d3-svg-legend": "^2.25.6",
+    "file-saver": "^2.0.5",
+    "flubber": "^0.4.2",
+    "html2canvas": "^1.4.1",
+    "svelte-collapse": "^0.1.2",
+    "svelte-inview": "^4.0.4",
+    "svelte-scroller": "^1.2.2",
+    "svelte-select": "^5.8.3",
+    "sveltejs-tippy": "^3.0.0",
+    "topojson-client": "^3.1.0"
+  }
+}

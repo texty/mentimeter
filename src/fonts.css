@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Cy Grotesk';
+  src: url('$lib/fonts/cygrotesk-keyregular_w.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cy Grotesk';
+  src: url('$lib/fonts/cygrotesk-keymedium_w.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cy Grotesk';
+  src: url('$lib/fonts/cygrotesk-keydemi_w.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
